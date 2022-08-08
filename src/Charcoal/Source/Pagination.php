@@ -3,7 +3,6 @@
 namespace Charcoal\Source;
 
 use InvalidArgumentException;
-
 // From 'charcoal-core'
 use Charcoal\Source\AbstractExpression;
 use Charcoal\Source\PaginationInterface;
@@ -16,8 +15,8 @@ use Charcoal\Source\PaginationInterface;
 class Pagination extends AbstractExpression implements
     PaginationInterface
 {
-    const DEFAULT_PAGE  = 1;
-    const DEFAULT_COUNT = 0;
+    public const DEFAULT_PAGE  = 1;
+    public const DEFAULT_COUNT = 0;
 
     /**
      * The current page.

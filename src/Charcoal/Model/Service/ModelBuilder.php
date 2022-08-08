@@ -3,10 +3,8 @@
 namespace Charcoal\Model\Service;
 
 use UnexpectedValueException;
-
 // From 'charcoal-factory'
 use Charcoal\Factory\FactoryInterface;
-
 // From 'charcoal-core'
 use Charcoal\Model\ModelMetadata;
 use Charcoal\Model\Service\MetadataLoader;
@@ -16,7 +14,7 @@ use Charcoal\Model\Service\MetadataLoader;
  */
 final class ModelBuilder
 {
-    const DEFAULT_SOURCE_TYPE = 'database';
+    public const DEFAULT_SOURCE_TYPE = 'database';
 
     /**
      * @var FactoryInterface
